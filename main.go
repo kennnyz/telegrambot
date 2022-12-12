@@ -27,13 +27,7 @@ func main() {
 	if err := consumer.Start(); err != nil {
 		log.Fatal()
 	}
-	//consumer.Start(fetcher, processor) Получает событие и обрабатывает их
-	//Fetcher хранит все данные
-	//Processor обрабатывает событие
-	//token = flags.Get(token)
-	//tgClient = telegram.New(token)
-	//fetcher := fetcher.New()
-	//processor := processor.New()
+
 }
 
 func mustToken() string {
